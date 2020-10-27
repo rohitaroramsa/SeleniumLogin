@@ -63,10 +63,10 @@ class ExpediaPackage():
         time.sleep(2)  #sometimes following steps goes too fast and fails to interact as view is loading
         self.driver.find_element_by_xpath(self.adult_decrease_btn_xpath).click()
         self.driver.find_element_by_xpath(self.child_increase_btn_xpath).click()
-        self.driver.find_element_by_xpath(self.child_age_xpath+'/option[2]').click()  #Age 3 is option 2 of DD
+        self.driver.find_element_by_xpath(self.child_age_xpath+'/option[2]').click()  #Age 3 is option 2 of Drop Down
         self.driver.find_element_by_xpath(self.traveller_done_btn_xpath).click()
 
-    '''Set of dates one month later, 12->24'''
+    '''Set up dates 2 month later, 12->24'''
     def set_dates(self):
         self.driver.find_element_by_id(self.datepicker_id).click()
         time.sleep(2)  #sometimes process goes too fast and calendar don't load properly
