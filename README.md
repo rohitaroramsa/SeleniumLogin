@@ -4,14 +4,14 @@ This test assessment was prepared for .
 
 ## Project Structure
 Assessment project is built across multiple folders: 
-- features: All the .feature files (Gherkin files/BDD Files) are present inside this folder.
+- features: All the .feature files (Gherkin files/BDD Files) are present inside this folder. Also enviroment.py is present here which is used for fixtures and much more.
 - features/Steps: All the step definitions are present inside this folder. file name should match the feature file name.
 - Screenshots: To capture any evidences/screenshots.
 - pages: I have followed Page Object Model. So all webelements and the functions/methods to interact with them (get/set) are grouped here inside python files for each of the web page. 
 
 ## Setup & Installations
 ##### Python
-Python can be downloaded from [Download Python link](https://www.python.org/downloads/).
+Python can be downloaded from Download Python [link](https://www.python.org/downloads/).
 
 ##### Chrome Driver
 Chrome WebDriver can be downloaded from this [link](https://chromedriver.chromium.org/downloads).
