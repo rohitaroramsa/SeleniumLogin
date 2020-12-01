@@ -9,24 +9,14 @@ Assessment project is built across multiple folders:
 - Screenshots: To capture any evidences/screenshots.
 - pages: I have followed Page Object Model. So all webelements and the functions/methods to interact with them (get/set) are grouped here inside python files for each of the web page. 
 
-##### features
-All the .feature files (Gherkin files/BDD Files) are present inside this folder.
-##### features/steps
-All the step definitions are present inside this folder. file name should match the feature file name.
-##### screenshots
-To capture any evidences/screenshots.
-##### pages
-I have followed Page Object Model. So all webelements and the functions/methods to interact with them (get/set) are grouped here inside python files for each of the web page. 
-
 ## Setup & Installations
-#
-#### Python
+##### Python
 Python can be downloaded from [Download Python link](https://www.python.org/downloads/).
 
-#### Chrome Driver
+##### Chrome Driver
 Chrome WebDriver can be downloaded from this [link](https://chromedriver.chromium.org/downloads).
 
-#### Dependencies & Installation
+##### Dependencies & Installation
 This Python based Test Automation project has 2 major python dependecies:
 - Selenium (To interact with the WebDriver)
 - Behave (For BDD Test Implementation)
